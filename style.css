@@ -1,0 +1,26 @@
+.header{
+	background: #ef2e25;
+}
+table.feature{
+	padding-top: 10px;
+}
+h1{
+	font-size: 44px;
+}
+.locate{
+	float: right;
+}
+/*
+table.columns .left-text-pad{
+	padding-left: 20px;
+}
+table.columns .right-text-pad{
+	padding-right: 20px;
+}
+*/
+
+@media only screen and (max-width: 580px) {
+	img{
+		float: none;
+	}
+}
