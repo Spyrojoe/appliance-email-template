@@ -1,14 +1,236 @@
+/*.container{
+	outline: 1px red dashed;
+}*/
+.mypad-left{
+	padding-left: 25px !important;
+}
+.mypad-right{
+	padding-right: 25px !important;
+}
 .header{
 	background: #ef2e25;
 }
+.header .wrapper{
+	padding: 20px 0;
+}
+.header .sub-columns{
+	vertical-align: text-bottom;
+}
+.logo{
+	padding-left: 24px !important;
+}
+.locate{
+	padding-right: 24px !important;
+}
+.nav{
+	width: 100%;
+	background: #ef2e25;
+	border-top: 1px #f3716a solid;
+}
+.nav td{
+	width: auto;
+	padding: 20px 0;
+	font-size: 10.5px;
+	text-align: center;
+	/*border-right: 1px #ffffff solid;*/
+	line-height: 12px;
+	color: #ffffff;
+	font-family: arial, sans-serif;
+}
+.nav td.no-border{
+	border-right: 0;
+}
+.nav td.wrapper{
+	padding-right: 0;
+}
+.nav a,
+.nav a:visited{
+	color: #ffffff;
+}
+.nav .two.columns{
+	width: 120px;
+}
 table.feature{
 	padding-top: 10px;
+	background-image: url("http://images.apollointeractive.com/conns/bg.gif");
+}
+.feature .wrapper.last{
+	text-align: center;
+}
+.feature-img p{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 100;
+}
+.product-img{
+	padding-top: 20px;
+}
+.product-logo{
+	padding: 20px 0;
+}
+.feature-info{
+	padding-top: 30px !important;
+}
+.feature-info p{
+	margin: 0;
+	line-height: 1em;
+	font-weight: 600;
+}
+.feature-info .conditions{
+	font-size: 11px;
+	font-weight: 100;
+}
+.payment{
+	border-left: 1px #000000 solid;
+}
+.btn-group td{
+	text-align: center;
+}
+.btn-group a{
+	display: inline-block;
+	text-align: center;
+}
+table.columns.btn-group td{
+	  padding: 20px 0 0;
+}
+.percent{
+	font-size: 112px;
+	line-height: .8em;
+}
+.percent-sign{
+	font-size: 64px;
+	line-height: .8em;
 }
 h1{
 	font-size: 44px;
 }
+h2{
+	line-height: 1em;
+}
 .locate{
 	float: right;
+}
+.btn{
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+.yes-btn{
+	display: block;
+}
+.yes-btn img{
+	float: none;
+}
+.otherdeals{
+	background-color: #28c0da;
+}
+.otherdeals td,
+.otherdeals span,
+.otherdeals h4,
+.otherdeals div,
+.otherdeals p{
+	color: #ffffff;
+}
+.otherdeals p{
+	font-weight: 100;
+}
+.otherdeals .sub-columns{
+	vertical-align: top;
+}
+.apr{
+	font-size: 27px;
+}
+table.row.banner{
+	padding: 10px 0;
+	background-color: #a0a0a0;
+}
+.banner td{
+	color: #ffffff;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.deal{
+	padding: 20px 0 !important;
+	border-bottom: 1px #cbcbcb solid;
+}
+.deal img{
+	float: none;
+}
+td.deal-info{
+	padding-left: 40px !important;
+}
+
+.save{
+	font-size: 19px;
+	font-weight: 100;
+}
+.save-amount{
+	font-size: 57px;
+}
+.save-amount span{
+	font-size: 20px;
+	vertical-align: text-top;
+}
+.pair-purchase{
+	font-size: 20px;
+	font-weight: 100;
+	border-bottom: 1px #000000 solid;
+}
+.permonth{
+	font-size: 19px;
+	text-align: center;
+}
+.monthly-amount{
+	font-size: 66px;
+	text-align: center;
+	color: #ee2e24;
+	line-height: 66px;
+}
+.conditions{
+	font-size: 12px;
+}
+.size{
+	font-size: 20px;
+
+}
+.deal-img-left{
+	padding-left: 25px !important;
+}
+.split-img img{
+	display: inline;
+	float: none;
+}
+.split-img td{
+	text-align: center;
+}
+.sofaset-info{
+	border-bottom: 1px #cbcbcb solid;
+}
+.sofaset-info p{
+	margin: 0;
+}
+.product-name{
+	font-size: 20px;
+	font-weight: 700;
+}
+.two-by img{
+	display: block;
+	float: none;
+	text-align: center;
+}
+.two-by .columns td{
+	text-align: center;
+}
+.footer{
+	background: #eaeaea;
+}
+.footer p{
+	color: #555555;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
 }
 /*
 table.columns .left-text-pad{
@@ -24,3 +246,30 @@ table.columns .right-text-pad{
 		float: none;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
