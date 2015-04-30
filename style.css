@@ -7,6 +7,22 @@
 .mypad-right{
 	padding-right: 25px !important;
 }
+.spacer{
+	height: 20px;
+	float: none;
+	border: 0;
+}
+.uncollapse{
+	border-collapse: separate;
+}
+.subrow,
+.subrow td{
+	text-align: left;
+}
+.subrow img{
+	display: inline-block;
+	text-align: left;
+}
 .header{
 	background: #ef2e25;
 }
@@ -50,31 +66,43 @@
 .nav .two.columns{
 	width: 120px;
 }
+table.feature h2{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2em;
+}
 table.feature{
 	padding-top: 10px;
 	background-image: url("http://images.apollointeractive.com/conns/bg.gif");
 }
 .feature .wrapper.last{
-	text-align: center;
+	text-align: left;
 }
 .feature-img p{
 	margin: 0;
 	font-size: 16px;
 	font-weight: 100;
 }
-.product-img{
+/*.product-img{
 	padding-top: 20px;
-}
+}*/
 .product-logo{
 	padding: 20px 0;
 }
 .feature-info{
 	padding-top: 30px !important;
+	text-align: left;
 }
 .feature-info p{
 	margin: 0;
 	line-height: 1em;
 	font-weight: 600;
+}
+.feature-info p.subheading{
+	margin: 0;
+	line-height: 1em;
+	font-weight: 600;
+	text-align: center;
 }
 .feature-info .conditions{
 	font-size: 11px;
@@ -152,33 +180,52 @@ table.row.banner{
 }
 
 .deal{
-	padding: 20px 0 !important;
+	padding: 45px 0 !important;
 	border-bottom: 1px #cbcbcb solid;
 }
 .deal img{
 	float: none;
 }
-td.deal-info{
-	padding-left: 40px !important;
+.img-right td.deal-info{
+	padding-left: 70px !important;
 }
+.img-left td.deal-info{
+	padding-left: 28px !important;
+}
+/*.img-left td.deal-info.second{
+	padding-left: 95px !important;
+}*/
 
 .save{
+	margin: 0;
+	padding: 16px 0;
 	font-size: 19px;
 	font-weight: 100;
 }
 .save-amount{
 	font-size: 57px;
+	line-height: 43px;
+	vertical-align: top;
 }
 .save-amount span{
 	font-size: 20px;
 	vertical-align: text-top;
+	line-height: 18px;
+}
+.feature .pair-purchase{
+	font-size: 13px;
+	font-weight: 600;
+	border: 0
 }
 .pair-purchase{
+	margin: 0;
+	padding-bottom: 15px;
 	font-size: 20px;
 	font-weight: 100;
 	border-bottom: 1px #000000 solid;
 }
 .permonth{
+	padding-top: 15px;
 	font-size: 19px;
 	text-align: center;
 }
@@ -192,11 +239,13 @@ td.deal-info{
 	font-size: 12px;
 }
 .size{
+	margin: 0;
+	padding-bottom: 20px;
 	font-size: 20px;
-
+	font-weight: 600;
 }
-.deal-img-left{
-	padding-left: 25px !important;
+.deal .size:first-of-type{
+	padding-bottom: 8px;
 }
 .split-img img{
 	display: inline;
@@ -246,13 +295,6 @@ table.columns .right-text-pad{
 		float: none;
 	}
 }
-
-
-
-
-
-
-
 
 
 
