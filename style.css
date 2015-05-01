@@ -1,11 +1,23 @@
-/*.container{
-	outline: 1px red dashed;
-}*/
+#viewinbrowser{
+	padding: 10px 0 !important;
+}
 .mypad-left{
 	padding-left: 25px !important;
 }
 .mypad-right{
 	padding-right: 25px !important;
+}
+.nopad{
+	padding: 0 !important;
+}
+.shop-now-btn,
+.get-credit-btn{
+	margin: 20px auto;
+}
+.shop-now-btn.lessmargin.nofloat,
+.get-credit-btn.lessmargin.nofloat{
+	margin: 10px auto;
+	float: none;
 }
 .spacer{
 	height: 20px;
@@ -32,8 +44,20 @@
 .header .sub-columns{
 	vertical-align: text-bottom;
 }
+.header-btns{
+	text-align: right;
+	vertical-align: middle;
+}
+.header-btns a{
+	display: inline-block;
+}
+.header-btns img{
+	display: inline-block;
+	float: none;
+}
 .logo{
 	padding-left: 24px !important;
+	vertical-align: middle !important;
 }
 .locate{
 	padding-right: 24px !important;
@@ -60,8 +84,9 @@
 	padding-right: 0;
 }
 .nav a,
-.nav a:visited{
-	color: #ffffff;
+.nav a:visited,
+.nav a:hover{
+	color: #ffffff !important;
 }
 .nav .two.columns{
 	width: 120px;
@@ -264,6 +289,17 @@ table.row.banner{
 	font-size: 20px;
 	font-weight: 700;
 }
+.product-name p,
+.product-name img{
+	text-align: center;
+	margin: 0 auto;
+}
+.product-name.smaller{
+	font-size: 16px;
+}
+.wrapper.last.getpad{
+
+}
 .two-by img{
 	display: block;
 	float: none;
@@ -281,6 +317,16 @@ table.row.banner{
 	font-size: 12px;
 	font-weight: 100;
 }
+.mypad-right.swap{
+	padding-right: 0 !important;
+	padding-left: 30px;
+}
+#footer-social{
+	text-align: right;
+}
+.social-link{
+	display: inline-block;
+}
 /*
 table.columns .left-text-pad{
 	padding-left: 20px;
@@ -289,15 +335,301 @@ table.columns .right-text-pad{
 	padding-right: 20px;
 }
 */
+/* John's Styles */
+p {
+	margin-bottom: 2px;
+}
+.conditions {
+	font-size: 12px;
+	line-height: 14px;
+}
+.save {
+	padding: 7px 0;
+}
+.shop-now-btn, .get-credit-btn {
+	margin: 0px auto 0px;
+}
+.pair-purchase {
+	font-size: 19px;
+}
+.deal .size:first-of-type {
+	padding-bottom: 3px;
+}
+h1 {
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 42px;
+	padding-bottom: 10px;
+}
+.header .wrapper {
+  padding: 10px 0 0;
+}
+.shop-now-btn.lessmargin.nofloat, .get-credit-btn.lessmargin.nofloat {
+  margin: 0 auto;
+}
+table.row.banner {
+	padding: 0; 
+	background-color: none;
+}
 
 @media only screen and (max-width: 580px) {
+	table.columns td{
+		padding: 0 !important;
+	}
 	img{
 		float: none;
+	}
+	.mobile-center,
+	.mobile-center .img-left td.deal-info.second,
+	.img-left td.deal-info,
+	.mobile-center img,
+	.mobile-center p,
+	.mobile-center span{
+		padding: 20px 0 !important;
+		text-align: center !important;
+		margin: 0 auto;
+	}
+	.mobile-center td{
+		padding: 0 !important;
+		text-align: center;
+	}
+	.mobile-center p, .mobile-center img{
+		text-align: center;
+	}
+	.mobile-center img{
+		margin: 0 auto;
+	}
+	.img-right td.deal-info,
+	.mobile-center .mypad-left{
+		padding: 0 !important;
+	}
+	.img-right td.deal-info img,
+	.img-right td.deal-info p{
+		padding: 6px 0 !important;
+	}
+	.mobile-center p,
+	.mobile-center p.tinypad,
+	p.tinypad,
+	p.save.tinypad,
+	p.save-ammount.tinypad,
+	p.pair-purchase.tinypad,
+	p.permonth.tinypad,
+	p.monthly-amount.tinypad,
+	p.conditions.tinypad,
+	.tinypad{
+		padding: 4px 0 !important;
+		border: 0 !important;
+	}
+	.mobile-center .mypad-left p,
+	.mobile-center .mypad-left .two-by img{
+		
+		margin: 0 auto;
+	}
+	.two-by img{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.save,
+	.save-amount{
+		text-align: center;
+	}
+	.product-name{
+		text-align: center;
+	}
+	table.container table.row.mobile-center .wrapper{
+		padding: 20px 0 !important;
+	}
+	table[class="body"] .footer img{
+		text-align: center;
+		margin: 0 auto 10px;
+	}
+	table[class="body"] table.columns td{
+		text-align: center;
+	}
+	table[class="body"] img.product-img.margin-center{
+		margin: 0 auto;
+	}
+	#yes-btn{
+		width: 100%;
+	}
+	#yes-btn img{
+		margin: 0 auto;
+	}
+	table.feature{
+		background: none;
+	}
+	.feature-img .mypad-left h1,
+	.feature-img .mypad-left p{
+		text-align: center;
+	}
+	table[class="body"] .feature .feature-info .columns td.six{
+		margin-bottom: 20px;
+	}
+	table[class="body"] .columns td.six.sub-columns.text-pad.payment{
+		border: 0;
+	}
+	#mobile-btn-margin{
+		margin: 20px auto;
+	}
+	#flex-mobile{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	table[class="body"] .columns td.four.sub-columns.header-btns{
+		width: 50% !important;
+		text-align: right;
+	}
+	img.shop-now-btn,
+	img.get-credit-btn{
+		display: inline-block !important;
+	}
+	#sofawrap{
+		padding: 0 !important;
+	}
+	#sofabuttons{
+		padding: 0 !important;
+	}
+	.mobile-center img.btn-img{
+		padding: 0 !important;
 	}
 }
 
 
-
+@media yahoo {
+	table.columns td{
+		padding: 0 !important;
+	}
+	img{
+		float: none;
+	}
+	.mobile-center,
+	.mobile-center .img-left td.deal-info.second,
+	.img-left td.deal-info,
+	.mobile-center img,
+	.mobile-center p,
+	.mobile-center span{
+		padding: 20px 0 !important;
+		text-align: center !important;
+		margin: 0 auto;
+	}
+	.mobile-center td{
+		padding: 0 !important;
+		text-align: center;
+	}
+	.mobile-center p, .mobile-center img{
+		text-align: center;
+	}
+	.mobile-center img{
+		margin: 0 auto;
+	}
+	.img-right td.deal-info,
+	.mobile-center .mypad-left{
+		padding: 0 !important;
+	}
+	.img-right td.deal-info img,
+	.img-right td.deal-info p{
+		padding: 6px 0 !important;
+	}
+	.mobile-center p,
+	.mobile-center p.tinypad,
+	p.tinypad,
+	p.save.tinypad,
+	p.save-ammount.tinypad,
+	p.pair-purchase.tinypad,
+	p.permonth.tinypad,
+	p.monthly-amount.tinypad,
+	p.conditions.tinypad,
+	.tinypad{
+		padding: 4px 0 !important;
+		border: 0 !important;
+	}
+	.mobile-center .mypad-left p,
+	.mobile-center .mypad-left .two-by img{
+		
+		margin: 0 auto;
+	}
+	.two-by img{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.save,
+	.save-amount{
+		text-align: center;
+	}
+	.product-name{
+		text-align: center;
+	}
+	table.container table.row.mobile-center .wrapper{
+		padding: 20px 0 !important;
+	}
+	table[class="body"] .footer img{
+		text-align: center;
+		margin: 0 auto 10px;
+	}
+	table[class="body"] table.columns td{
+		text-align: center;
+	}
+	table[class="body"] img.product-img.margin-center{
+		margin: 0 auto;
+	}
+	#yes-btn{
+		width: 100%;
+	}
+	#yes-btn img{
+		margin: 0 auto;
+	}
+	table.feature{
+		background: none;
+	}
+	.feature-img .mypad-left h1,
+	.feature-img .mypad-left p{
+		text-align: center;
+	}
+	table[class="body"] .feature .feature-info .columns td.six{
+		margin-bottom: 20px;
+	}
+	table[class="body"] .columns td.six.sub-columns.text-pad.payment{
+		border: 0;
+	}
+	#mobile-btn-margin{
+		margin: 20px auto;
+	}
+	#flex-mobile{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	table[class="body"] .columns td.four.sub-columns.header-btns{
+		width: 50% !important;
+		text-align: right;
+	}
+	img.shop-now-btn,
+	img.get-credit-btn{
+		display: inline-block !important;
+	}
+	#sofawrap{
+		padding: 0 !important;
+	}
+	#sofabuttons{
+		padding: 0 !important;
+	}
+	.mobile-center img.btn-img{
+		padding: 0 !important;
+	}
+}
 
 
 
